@@ -1,0 +1,27 @@
+.page.theme-dark {
+  --text-color: var(--color-pink-text, #f1b2ce);
+  --secondary-color: var(--color-purple-page, #ff0070);
+  --secondary-color-ff: var(--color-purple-ff, #ff007040);
+  --brand-color: var(--color-purple-brand, #db00ff);
+  --accent-color: var(--color-purple-accent, #ff0070);
+  --highlight-color: var(--color-black-page, #000028);
+
+  --page-background-color: var(--color-black-1, #000028);
+  --page-background-image: url("../images/cover-image-dark.png");
+
+  --visible-decor-visibility: visible;
+}
+
+:root.theme-dark {
+  --text-color: var(--color-pink-text, #f1b2ce);
+  --secondary-color: var(--color-purple-page, #ff0070);
+  --secondary-color-ff: var(--color-purple-ff, #ff007040);
+  --brand-color: var(--color-purple-brand, #db00ff);
+  --accent-color: var(--color-purple-accent, #ff0070);
+  --highlight-color: var(--color-black-page, #000028);
+
+  --page-background-color: var(--color-black-1, #000028);
+  --page-background-image: url("../images/cover-image-dark.png");
+
+  --visible-decor-visibility: visible;
+}
