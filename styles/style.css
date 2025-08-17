@@ -147,12 +147,12 @@
 
 .container {
   display: grid;
-  gap: 20px;
+  gap: 19.5px;
 }
 
 .list {
   display: grid;
-  gap: 19.5px;
+  gap: 20.5px;
 }
 
 .title {
@@ -221,14 +221,13 @@
 
 @media (width >= 768px) {
   .main {
-    padding: 63.4px 20px;
-    gap: 80.5px;
+    padding: 59.4px 20px;
+    gap: 79px;
     min-block-size: 152vh;
   }
 
   .main__container {
     gap: 80px;
-    padding: 60px 20px;
   }
 
   .header {
