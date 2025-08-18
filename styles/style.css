@@ -147,7 +147,7 @@
 
 .container {
   display: grid;
-  gap: 19.5px;
+  gap: 21px;
 }
 
 .list {
@@ -172,7 +172,7 @@
 
 .article {
   display: grid;
-  gap: 10px;
+  gap: 9px;
 }
 
 .main__info-section-article-now-title {
@@ -203,40 +203,41 @@
 .footer {
   justify-content: center;
   align-items: center;
-  min-block-size: 100vh;
+  min-block-size: 99vh;
 }
 
 .footer__title {
   color: var(--brand-color, #db00ff);
   font-weight: 700;
-  font-size: clamp(7.25rem, 7.0115rem + 4.0178vw, 10rem);
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 82.5%;
   text-shadow: 4px 4px 0 var(--accent-color, #ff0070);
 }
 
 .shadow {
+  margin-right: 4px;
   display: grid;
   padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
 }
 
 @media (width >= 768px) {
   .main {
-    padding: 59.4px 20px;
-    gap: 79px;
+    padding: 65px 20px;
+    gap: 81px;
     min-block-size: 152vh;
   }
 
   .main__container {
-    gap: 80px;
+    gap: 20px;
   }
 
   .header {
     padding-inline-start: 0;
-    min-block-size: 143.3vh;
+    min-block-size: 99.5vh;
   }
 
   .header__theme-menu {
-    margin-block-start: 109px;
+    margin-block-start: 172px;
     margin-block-end: 18px;
   }
 
@@ -292,6 +293,11 @@
 }
 
 @media (width >= 1024px) {
+  .main {
+    padding: 60px 20px;
+    gap: 81px;
+  }
+
   .header {
     padding-inline-start: 0;
     min-block-size: 100vh;
@@ -326,5 +332,9 @@
 
   .footer {
     min-block-size: 100vh;
+  }
+
+  .footer__title {
+    font-size: clamp(7.25rem, 7.0115rem + 4.0178vw, 10.5rem);
   }
 }
