@@ -199,6 +199,24 @@
   gap: 11.5px;
 }
 
+.link {
+  text-shadow: 2px 1px 0 var(--accent-color);
+  text-decoration: none;
+}
+
+.link:focus {
+  outline: none;
+}
+
+.link:focus-visible {
+  outline: 1px solid currentColor;
+}
+
+.link:hover {
+  border-bottom: 1px solid currentColor;
+  cursor: pointer;
+}
+
 /* footer */
 
 .footer {
