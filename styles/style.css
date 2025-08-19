@@ -21,7 +21,8 @@
   display: grid;
   align-items: start;
   padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
-  min-block-size: 100vh;
+  min-height: 668px;
+  height: 100vh;
 }
 
 .decorated-zone {
@@ -118,7 +119,7 @@
 }
 
 .header__title {
-  font-size: 116px;
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   font-weight: 700;
   color: var(--brand-color, #db00ff);
   line-height: 83%;
@@ -203,7 +204,8 @@
 .footer {
   justify-content: center;
   align-items: center;
-  min-block-size: 99vh;
+  min-height: 668px;
+  height: 100vh;
 }
 
 .footer__title {
@@ -222,9 +224,8 @@
 
 @media (width >= 768px) {
   .main {
-    padding: 65px 20px;
+    padding: 60px 20px;
     gap: 81px;
-    min-block-size: 152vh;
   }
 
   .main__container {
@@ -233,7 +234,8 @@
 
   .header {
     padding-inline-start: 0;
-    min-block-size: 99.5vh;
+    min-height: 768px;
+    height: 100vh;
   }
 
   .header__theme-menu {
@@ -242,7 +244,7 @@
   }
 
   .header__title {
-    font-size: 120px;
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .header__description {
@@ -300,11 +302,12 @@
 
   .header {
     padding-inline-start: 0;
-    min-block-size: 100vh;
+    min-height: 668px;
+    height: 100vh;
   }
 
   .header__title {
-    font-size: 157px;
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .page-title {
@@ -331,7 +334,8 @@
   }
 
   .footer {
-    min-block-size: 100vh;
+    min-height: 668px;
+    height: 100vh;
   }
 
   .footer__title {
