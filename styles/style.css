@@ -200,7 +200,7 @@
 }
 
 .link {
-  text-shadow: 2px 1px 0 var(--accent-color);
+  text-shadow: 2px 1px 0 var(--accent-color, #ff0070);
   text-decoration: none;
 }
 
